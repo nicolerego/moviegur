@@ -1,12 +1,18 @@
 <%= render "header" %>
 
 <%= link_to "+ Add a New Movie",  new_movie_url %>
-<% @movies.each do |movie| %>
-<p>
-	<%= link_to movie.title, movie_path(movie) %>, Director: <%= movie.director %>, Rating: <%= movie.rating %> 
-</p>
+
+<ul>
+	<% @movies.each do |movie| %>
+<li>
+	<div class="movieImg">
+		<%= link_to image_tag(movie.poster), movie_path(movie) %>
+	</div>
+	<%= link_to movie.title, movie_path(movie) %> </br> Director: <%= movie.director %> </br> Rating: <%= movie.rating %> 
+</li>
 
 <% end %>
+</ul>
 
 
 

@@ -1,4 +1,8 @@
 <%= render "header" %>
 <%= link_to "Back to All Movies", movies_url %> | <%= link_to "Edit", edit_movie_path(@movie) %> | <%= link_to "Delete", @movie, method: :delete, data: {confirm: "Are you sure you want to delete this movie?"}  %>
+<section class="show">
+
+<div class="movieImg"><%= image_tag @movie.poster %></div>
 <h3><%= @movie.title %></h3>
-<p>Director: <%= @movie.director %>, Rating: <%= @movie.rating%></p>
+<p>Director: <%= @movie.director %> </br> Rating: <%= @movie.rating%></p>
+</section>
