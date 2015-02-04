@@ -1,0 +1,4 @@
+<%= render "header" %>
+<%= link_to "Back to All Movies", movies_url %> | <%= link_to "Edit", edit_movie_path(@movie) %> | <%= link_to "Delete", @movie, method: :delete, data: {confirm: "Are you sure you want to delete this movie?"}  %>
+<h3><%= @movie.title %></h3>
+<p>Director: <%= @movie.director %>, Rating: <%= @movie.rating%></p>

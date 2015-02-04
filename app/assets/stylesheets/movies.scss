@@ -1,0 +1,31 @@
+// Place all the styles related to the Movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	width:90%;
+	margin:0 auto;
+}
+
+h3 {font-weight:300;}
+
+a {	
+	text-decoration:none;
+	font-weight:400;
+	color:black;
+}
+
+a:hover {
+	color:blue;
+}
+
+header {
+	text-align:center;	
+	padding: 20px 10px;
+	border-bottom:solid 1px #ccc;
+	margin-bottom:60px;
+}

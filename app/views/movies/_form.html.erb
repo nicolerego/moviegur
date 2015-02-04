@@ -1,0 +1,17 @@
+<%= form_for @movie do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :director %><br>
+    <%= f.text_field :director %>
+  </p>
+  <p>
+    <%= f.label :rating %><br>
+    <%= f.text_field :rating %>
+  </p>
+  <p>
+    <%= f.submit "Save this Movie!" %>
+  </p>
+<% end %>

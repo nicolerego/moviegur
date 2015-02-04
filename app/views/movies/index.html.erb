@@ -1,0 +1,13 @@
+<%= render "header" %>
+
+<%= link_to "+ Add a New Movie",  new_movie_url %>
+<% @movies.each do |movie| %>
+<p>
+	<%= link_to movie.title, movie_path(movie) %>, Director: <%= movie.director %>, Rating: <%= movie.rating %> 
+</p>
+
+<% end %>
+
+
+
+<!-- "/movies/#{movie.id}" -->
