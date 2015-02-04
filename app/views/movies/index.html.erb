@@ -8,12 +8,8 @@
 	<div class="movieImg">
 		<%= link_to image_tag(movie.poster), movie_path(movie) %>
 	</div>
-	<%= link_to movie.title, movie_path(movie) %> </br> Director: <%= movie.director %> </br> Rating: <%= movie.rating %> 
+	<%= link_to movie.title, movie_path(movie) %> 
 </li>
 
 <% end %>
 </ul>
-
-
-
-<!-- "/movies/#{movie.id}" -->
