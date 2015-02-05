@@ -2,14 +2,26 @@
 
 <%= link_to "+ Add a New Movie",  new_movie_url %>
 
+<h3 class="index">Movies You've Recently Watched</h3>
 <ul>
-	<% @movies.each do |movie| %>
-<li>
-	<div class="movieImg">
-		<%= link_to image_tag(movie.poster), movie_path(movie) %>
-	</div>
-	<%= link_to movie.title, movie_path(movie) %> 
-</li>
-
-<% end %>
+  <% @most_recent_movies.each do |movie| %>
+    <li>
+		<div class="movieImg">
+			<%= link_to image_tag(movie.poster), movie_path(movie) %>
+		</div>
+		<%= link_to movie.title, movie_path(movie) %> 
+	</li>
+  <% end %>
 </ul>
+
+<h3 class="index">All Movies</h3>
+	<ul>
+		<% @movies.each do |movie| %>
+	<li>
+		<div class="movieImg">
+			<%= link_to image_tag(movie.poster), movie_path(movie) %>
+		</div>
+		<%= link_to movie.title, movie_path(movie) %> 
+	</li>
+		<% end %>
+	</ul>

@@ -1,6 +1,7 @@
 class MoviesController < ApplicationController
 	def index
 		@movies = Movie.all
+		@most_recent_movies = Movie.most_recent_three
 	end 
 
 	def show
