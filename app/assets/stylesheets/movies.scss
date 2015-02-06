@@ -11,7 +11,10 @@ body {
 	padding:60px;
 }
 
-h1 a {font-weight:bold; font-size:30pt;}
+h1 a {
+	font-weight:bold; 
+	font-size:30pt;
+}
 
 .index {
 	color:#f1b601; 
@@ -21,7 +24,12 @@ h1 a {font-weight:bold; font-size:30pt;}
 	padding-top:20px;
 }
 
-h3 {font-weight:300; font-size:16pt;}
+.olderMovies p {margin-top:0px;}
+
+h3 {
+	font-weight:300; 
+	font-size:16pt;
+}
 
 a {	
 	text-decoration:none;
@@ -30,9 +38,7 @@ a {
 	text-transform:uppercase;
 }
 
-a:hover {
-	color:#f1b601;
-}
+a:hover { color:#f1b601; }
 
 header {
 	text-align:center;	
@@ -57,8 +63,7 @@ ul {
 	overflow: auto; 
 	width:100%;
 	margin-top:40px;
-
-	}
+}
 
 li {
 	float:left;	
@@ -75,6 +80,17 @@ li a {
 li a:hover {opacity:0.7;}
 
 header a {text-transform:none;}
+
+.olderMovies li{
+	float:none;
+	padding:0px;
+	margin-bottom:10px;
+}
+
+.olderMovies li a{
+	font-size:12pt;
+	margin:0px;
+}
 
 .show img {
 	float:left;

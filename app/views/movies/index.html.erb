@@ -25,3 +25,18 @@
 	</li>
 		<% end %>
 	</ul>
+
+<h3 class="index">Movies more than 1 Month Old 
+	(<%= Movie.created_before(1.month.ago).count %>)
+</h3>
+<ul class="olderMovies">
+  <% @older_than_one_month.each do |movie| %>
+    <li>
+		<%= link_to movie.title, movie_path(movie) %> 
+	</li>
+  <% end %>
+
+  <% if @older_than_one_month.blank? %>
+	 	<p>No movies are that old!</p>
+	<% end %>
+</ul>

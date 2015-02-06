@@ -2,6 +2,7 @@ class MoviesController < ApplicationController
 	def index
 		@movies = Movie.all
 		@most_recent_movies = Movie.most_recent_three
+		@older_than_one_month = Movie.created_before(1.month.ago)
 	end 
 
 	def show
