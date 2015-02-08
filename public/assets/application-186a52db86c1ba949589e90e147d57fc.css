@@ -1,0 +1,310 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/* line 7, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+/* line 14, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+h1 a {
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+/* line 19, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.index {
+  color: #f1b601;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+/* line 27, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.olderMovies p {
+  margin-top: 0px;
+}
+
+/* line 29, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+h3 {
+  font-weight: 300;
+  font-size: 16pt;
+}
+
+/* line 34, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* line 41, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+a:hover {
+  color: #f1b601;
+}
+
+/* line 43, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+header {
+  text-align: center;
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+/* line 50, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.movieImg img {
+  height: 300px;
+  width: auto;
+}
+
+/* line 55, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+ul, li {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* line 61, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+ul {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* line 68, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+li {
+  float: left;
+  width: 230px;
+  margin-bottom: 20px;
+}
+
+/* line 74, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+li a {
+  font-size: 14pt;
+  text-transform: none;
+  font-weight: 300;
+}
+
+/* line 80, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+li a:hover {
+  opacity: 0.7;
+}
+
+/* line 82, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+header a {
+  text-transform: none;
+}
+
+/* line 84, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.olderMovies li {
+  float: none;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 90, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.olderMovies li a {
+  font-size: 12pt;
+  margin: 0px;
+}
+
+/* line 95, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.show img {
+  float: left;
+  padding-right: 20px;
+}
+
+/* line 100, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.show {
+  margin-top: 30px;
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 106, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.show .movieImg img {
+  float: left;
+  padding-right: 20px;
+}
+
+/* line 111, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.flatButton {
+  margin-top: 20px;
+  position: relative;
+  vertical-align: top;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #f1b601;
+  border: 0;
+  border-bottom: 2px solid #d5a102;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #d5a102;
+  box-shadow: inset 0 -2px #d5a102;
+}
+
+/* line 131, /Users/nicolerego/Desktop/moviegur/app/assets/stylesheets/movies.scss */
+.flatButton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	margin:0 auto;
+	padding:60px;
+}
+
+h1 a {
+	font-weight:bold; 
+	font-size:30pt;
+}
+
+.index {
+	color:#f1b601; 
+	font-size:12pt; 
+	text-transform:uppercase; 
+	font-weight:400;
+	padding-top:20px;
+}
+
+.olderMovies p {margin-top:0px;}
+
+h3 {
+	font-weight:300; 
+	font-size:16pt;
+}
+
+a {	
+	text-decoration:none;
+	font-weight:300;
+	color:black;
+	text-transform:uppercase;
+}
+
+a:hover { color:#f1b601; }
+
+header {
+	text-align:center;	
+	border-bottom:solid 1px #ccc;
+	padding-bottom:20px;
+	margin-bottom:60px;
+}
+
+.movieImg img{
+	height:300px;
+	width:auto;
+}
+
+ul, li {
+	list-style-type:none;	
+	margin-left:0px;
+	padding-left:0px;
+}
+
+ul {
+	height:100%; 
+	overflow: auto; 
+	width:100%;
+	margin-top:40px;
+}
+
+li {
+	float:left;	
+	width:230px;
+	margin-bottom:20px;
+}
+
+li a {
+	font-size:14pt; 
+	text-transform:none;
+	font-weight:300;
+}
+
+li a:hover {opacity:0.7;}
+
+header a {text-transform:none;}
+
+.olderMovies li{
+	float:none;
+	padding:0px;
+	margin-bottom:10px;
+}
+
+.olderMovies li a{
+	font-size:12pt;
+	margin:0px;
+}
+
+.show img {
+	float:left;
+	padding-right:20px;
+}
+
+.show {
+	margin-top:30px; 
+	height:100%; 
+	overflow:auto;
+}
+
+.show .movieImg img{
+	float:left;
+	padding-right:20px
+}
+
+.flatButton {
+  margin-top:20px;
+  position: relative;
+  vertical-align: top;
+  width:150px;
+  height: 30px;
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #f1b601; 
+  border: 0;
+  border-bottom: 2px solid #d5a102;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #d5a102;
+  box-shadow: inset 0 -2px #d5a102;
+}
+
+.flatButton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
